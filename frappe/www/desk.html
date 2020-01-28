@@ -22,6 +22,8 @@
 	{% for include in include_css -%}
 	<link type="text/css" rel="stylesheet" href="{{ include }}?ver={{ build_version }}">
 	{%- endfor -%}
+	<script>window.inlineManualOptions = { language: 'en'};</script>
+	<script>!function(){var e=document.createElement("script"),t=document.getElementsByTagName("script")[0];e.async=1,e.src="https://inlinemanual.com/embed/player.deeab6fe929bdcf3709d7c451a8bf25d.js",e.charset="UTF-8",t.parentNode.insertBefore(e,t)}();</script>
 </head>
 <body>
 	<div class="centered splash" style="width: 100px; height: 100px;">
